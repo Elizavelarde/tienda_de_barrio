@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio Sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Login</title>
 </head>
 <body>
+  <div id="container">
   <form action="">
-    <label for="cedula">Cédula</label>
-    <input type="text" placeholder="Escriba número de documento"><br>
-    <label for="contrasena">Contraseña</label>
-    <input type="text" name="contrasena" id="contrasena"><br>
-    <button>Iniciar Sesión</button>
-    <a href="#">Recuperar contraseña</a>
-  </form>  
+    <fieldset> 
+      <legend>INICIO SESIÓN</legend> 
+    <input class="campos" name="usuario" type="text" placeholder="Número de documento">
+    <input class="campos"name="contrasena" type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
+    <input id="btn" type="submit" name="" value="Ingresar">
+    <p><a href="#">Recuperar contraseña</a></p>
+  </fieldset>
+  </form> 
+</div> 
 </body>
 </html>
