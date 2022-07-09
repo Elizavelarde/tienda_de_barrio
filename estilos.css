@@ -12,9 +12,8 @@ body {
 #container {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 form {
@@ -84,4 +83,22 @@ form #btn {
 
 form #btn:hover {
     background-color: white;
+}
+
+#back a {
+    text-decoration: none;
+    color:  rgb(84, 115, 84);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#back a:hover {
+    text-decoration: underline;
+    color: rgb(122, 196, 93);
+}
+
+header {
+    background-color: black;
+    text-align: end;
+    padding: 15px;
 }
