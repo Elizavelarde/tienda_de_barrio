@@ -9,11 +9,27 @@ body {
     background-color: rgb(165, 200, 167);
 }
 
+/*PÁGINA LOGIN Y REGISTRO*/
+
 #container {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 10%;
+}
+
+.container-fluid .navbar-nav{
+    text-align: right;
+    
+}
+
+.nav1 {
+    background-color:rgb(121, 159, 123);
+    color: white;
+}
+
+.nav1:hover {
+    text-decoration: underline;
 }
 
 form {
@@ -103,4 +119,27 @@ header {
     background-color: black;
     text-align: end;
     padding: 15px;
+}
+
+/*PÁGINA COMENTARIOS ADMIN*/
+#titulo {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.cart3{
+    margin-right: 9px;
+}
+
+.cuadro_comentarios {
+    width: 20%;
+    margin: 1ex;
+}
+
+#ControlTextarea1 {
+    border: 1px solid black;
+}
+
+.nav2 {
+    background-color: rgb(92, 125, 154);
 }

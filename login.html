@@ -9,21 +9,14 @@
     <title>Login</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-        </ul>
-      </div>
+<nav class="nav1">
+  <div class="container-fluid">
+<div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#">Volver a Inicio</a>
     </div>
-  </nav>
+  </div>
+</nav>
+
   <div id="container">
   <form action="">
     <fieldset> 
@@ -31,7 +24,12 @@
     <input class="campos" name="usuario" type="text" placeholder="Número de documento">
     <input class="campos"name="contrasena" type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
     <input id="btn" type="submit" name="" value="Ingresar">
-    <p><a href="#">Recuperar contraseña</a></p>
+    <p>
+      <a href="#">Recuperar contraseña</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+      </svg>
+    </p>
   </fieldset>
   </form> 
 </div> 
