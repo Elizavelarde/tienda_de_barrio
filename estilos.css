@@ -121,7 +121,7 @@ header {
     padding: 15px;
 }
 
-/*PÁGINA COMENTARIOS ADMIN*/
+/*PÁGINAS COMENTARIOS*/
 #titulo {
     text-align: center;
     margin-top: 3%;
@@ -131,7 +131,7 @@ header {
     margin-right: 9px;
 }
 
-#container_comentadmin {
+#container_comentarios {
     width: 100%;
     display: flex;
     padding: auto;
@@ -168,9 +168,20 @@ header {
     text-decoration: underline;
 }
 
-.btn {
+.btn-send {
     background-color: rgb(130, 168, 201);
     margin-top: 0.5rem;
     border: 1px solid rgb(72, 112, 169);
     float: right;
+}
+
+.comentarios_admin {
+    width: 100%;
+    margin: 1rem;
+}
+
+.btn-responder {
+    background-color: rgb(130, 168, 201);
+    margin-top: 0.5rem;
+    border: 1px solid rgb(72, 112, 169);
 }
