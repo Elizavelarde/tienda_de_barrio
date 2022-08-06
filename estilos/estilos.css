@@ -102,3 +102,20 @@ input{
 
 
 
+
+
+.container-fluid .navbar-nav{
+    text-align: right;
+    
+}
+
+.nav1 {
+    background-color:rgb(121, 159, 123);
+    color: white;
+}
+
+.nav1:hover {
+    text-decoration: underline;
+}
+
+
