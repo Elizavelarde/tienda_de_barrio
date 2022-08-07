@@ -114,8 +114,9 @@ input{
     color: white;
 }
 
-.nav1:hover {
+.nav1 .navbar-nav .nav-link:hover {
     text-decoration: underline;
+    color: white;
 }
 
 
