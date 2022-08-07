@@ -139,9 +139,19 @@ img {
     margin-left: 370px;
 }
 
+#contenedor2 {
+    margin-top: -540px;
+    margin-left: 239px;
+    background-color: rgb(61, 95, 63);
+    width: 1020px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 8px 13px 25px; 
+}
+
 footer {
     color: rgb(61, 95, 63);
-    padding-top: 110px;
+    padding-top: 40px;
     margin-left: -300px;
     
 }
