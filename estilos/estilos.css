@@ -165,7 +165,7 @@ table{
 			border: none;
 			/* border-bottom: 1px solid #eee; */
 			position: relative;
-			padding-left: 40%;            
+			padding-left: 30%;            
 		}
 
 		td:before {
@@ -177,7 +177,8 @@ table{
 			width: 45%;
 			padding-right: 10px;
 			white-space: nowrap;
-            font-weight: bold;            
+            font-weight: bold;    
+            margin-left: -50px;        
 		}
 
 		/*
