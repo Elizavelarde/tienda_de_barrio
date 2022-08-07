@@ -122,9 +122,10 @@ input{
 
 .nav2 .navbar-nav .nav-link {    
     color: white;
+    /* background-color:rgb(121, 159, 123); */
 }
 
-.nav1:hover {
+.nav2:hover {
     text-decoration: underline;
 }
 
