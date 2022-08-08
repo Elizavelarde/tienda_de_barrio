@@ -100,36 +100,24 @@ input{
     margin-top: 20px;   
 }
 
-
-
-
-
 .container-fluid .navbar-nav{
     text-align: right;
     
 }
 
-.nav1 {
+.nav_inventario {
     background-color:rgb(121, 159, 123);
     color: white;
 }
 
-.nav1 .navbar-nav .nav-link:hover {
-    text-decoration: underline;
-    color: white;
-}
-
-
-
-.nav2 .navbar-nav .nav-link {    
-    color: white;
-    /* background-color:rgb(121, 159, 123); */
-}
-
-.nav2:hover {
+.nav_inventario .navbar-nav .nav-link:hover {
     text-decoration: underline;
 }
 
+.nav_crear .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
 
 table{
     margin: 5rem;
