@@ -11,7 +11,7 @@ body {
 
 /*PÁGINA LOGIN Y REGISTRO*/
 
-#container {
+.container_login {
     width: 100%;
     display: flex;
     justify-content: center;
