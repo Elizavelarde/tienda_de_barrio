@@ -1,4 +1,9 @@
 
+.nav-factura .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 h1 {
     color: #f6f4f7;
     font-size: 30px;
@@ -26,7 +31,7 @@ button {
     
 }
 
-.container { 
+.container_factura { 
     margin-top: 100px;
     margin-left: 500px;
     background-color: rgb(61, 95, 63);
@@ -148,7 +153,7 @@ img {
     margin-left: 370px;
 }
 
-#contenedor2 {
+#contenedor_factura {
     margin-top: -540px;
     margin-left: 239px;
     background-color: rgb(61, 95, 63);
