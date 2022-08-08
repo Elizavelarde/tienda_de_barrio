@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factura</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg nav-factura-inicio">
+        <div class="container-fluid">
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            Menú
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Ir Inicio</a>
+              <a class="nav-link" href="#">Cerrar Sesión</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--/Navbar-->
+    
+    <h2>Minimarket Pague Menos</h2>
+    <h3>NIT: 2374510</h3>
+    <h4>Factura de venta No.233</h4>
+
+<div>
+
+    <!--formulario de codigo del producto-->
+ <form id="codigo">
+
+   <label for="nuemerico">No. codigo producto</label><br>
+   <select name="numerico" id="numerico" size="7" multiple>
+      <option value="">11111</option>
+      <option value="">22222</option>
+      <option value="">33333</option>
+      <option value="">44444</option>
+      <option value="">55555</option>
+      <option value="">66666</option>
+      <option value="">77777</option>
+      <option value="">88888</option>
+      <option value="">99999</option>
+   </select>
+
+</form>
+<br>
+<!--formulario del nombre del producto-->
+<form id="producto">
+
+  <label for="texto">Nombre del producto</label><br>
+  <select name="texto" id="texto" size="7" multiple>
+    <option value="1">arroz Diana</option>
+    <option value="2">arroz roa</option>
+    <option value="3">chococrispi</option>
+    <option value="4">coca-cola</option>
+    <option value="5">galletas mini</option>
+    <option value="6">galletas saltin</option>
+    <option value="7">gaseosa postobon</option>
+    <option value="8">leche colanta</option>
+    <option value="9">yogur yogo yogo</option>
+
+  </select>
+</form>
+
+<div id="valor">
+
+  <h5>Valor unitario</h5>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+
+</div>
+
+<div id="cantidad">
+
+  <h5>Cantidad</h5>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+
+</div>
+
+<div id="total">
+
+  <h5>Total</h5>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+  <input type="text"><br>
+
+</div>
+
+<p>Total factura</p>
+
+
+<img src="imagenes/Pague Menos.png" alt="logo de la tienda">
+
+
+<img id="logo" src="imagenes/Diseño sin título (17).jpg" alt="icono de imprimir">
+
+ 
+
+<input id="boton" type="button" value="Imprimir">
+
+<div id="contenedor_factura"></div>
+   
+    <footer class="pagina"> 
+      <p><b><i> Gracias por su compra,esperamos que vuelva pronto </i></b></p>
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
