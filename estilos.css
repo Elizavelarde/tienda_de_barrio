@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(165, 200, 167);
+}
+
+/*PÁGINA LOGIN Y REGISTRO*/
+
+.container_login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-fluid .navbar-nav{
+    text-align: right;
+    
+}
+
+.nav1 {
+    background-color:rgb(121, 159, 123);
+    color: white;
+}
+
+.nav1:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 600px;
+    padding: 20px 25px;
+    background-color: rgb(84, 115, 84);
+    box-shadow: 8px 13px 25px black;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+}
+
+fieldset {
+    padding: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+label {
+    margin-bottom: 25px;
+}
+
+.campos {
+    width: 85%;
+    margin: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(163, 173, 163);
+}
+
+#btn {
+    width: 85%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    margin-bottom: 15px;
+}
+
+form p {
+    width: 85%;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+form p a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+form #btn {
+    cursor: pointer;
+}
+
+form #btn:hover {
+    background-color: white;
+}
+
+#back a {
+    text-decoration: none;
+    color:  rgb(89, 136, 89);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#back a:hover {
+    text-decoration: underline;
+    color: rgb(122, 196, 93);
+}
+
+header {
+    background-color: black;
+    text-align: end;
+    padding: 15px;
+}
+
+/*PÁGINAS COMENTARIOS*/
+#titulo {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.cart3{
+    margin-right: 9px;
+}
+
+#container_comentarios {
+    width: 100%;
+    display: flex;
+    padding: auto;
+}
+
+.nav2 .navbar-nav .nav-link {
+    color: white;
+}
+
+.comentarios {
+    width: 60%;
+    margin: 1.5rem;
+}
+
+.article {
+    margin-bottom: 1.5rem;
+}
+
+.cuadro_comentarios {
+    width: 35%;
+    margin: 1ex;
+    float: right;
+}
+
+#ControlTextarea1 {
+    border: 1px solid black;
+}
+
+.nav2 {
+    background-color: rgb(92, 125, 154);
+}
+
+.nav2 .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+
+.btn-send {
+    background-color: rgb(130, 168, 201);
+    margin-top: 0.5rem;
+    border: 1px solid rgb(72, 112, 169);
+    float: right;
+}
+
+.comentarios_admin {
+    width: 100%;
+    margin: 1rem;
+}
+
+.btn-responder {
+    background-color: rgb(130, 168, 201);
+    margin-top: 0.5rem;
+    border: 1px solid rgb(72, 112, 169);
+}
