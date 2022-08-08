@@ -1,5 +1,5 @@
 
-.nav-factura .navbar-nav .nav-link:hover {
+.nav-factura-inicio .navbar-nav .nav-link:hover {
     text-decoration: underline;
     color: white;
 }
@@ -31,7 +31,7 @@ button {
     
 }
 
-.container_factura { 
+.container_factura_inicio { 
     margin-top: 100px;
     margin-left: 500px;
     background-color: rgb(61, 95, 63);
