@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    background: rgb(165, 200, 167);
+    width: 1300px;
+}
+
+#containerB{
+
+    text-align: center;
+    color: white;
+    width: 1300px;
+}
+
+#containerC{
+
+    background: rgb(61, 95, 63);
+    width: 700px;
+    margin-left: 350px;
+}
+
+header {
+   
+    text-align: center;
+    color: white;
+}
+
+button {
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    
+}
+
+h3{
+
+    margin-left: 10px;
+}
+
+img {
+    width: 500px;
+    margin: 20px;
+    
+}
+
+p {
+ 
+    font-size: 20px;
+}
+
+footer{
+
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.piepagina{
+
+    margin-top: 20px;
+}
+
+textarea{
+
+    width: 100%;
+}
+
+
+
+#proveedor{
+
+    color: blue;
+    float: right;
+    margin-top: 20px;
+} 
+
+#nav{
+
+    text-align: left;
+    color: black;
+    font-size: larger;
+    background: white;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#piepaginaprovee{
+
+    margin-top: 80px;
+}
