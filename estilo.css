@@ -9,12 +9,9 @@ body {
     width: 1300px;
 }
 
-#containerB{
+/*Página de bienvenida*/
 
-    text-align: center;
-    color: white;
-    width: 1300px;
-}
+
 
 #containerC{
 
@@ -72,26 +69,14 @@ textarea{
     width: 100%;
 }
 
-
-
-#proveedor{
-
-    color: blue;
-    float: right;
-    margin-top: 20px;
-} 
-
-#nav{
-
-    text-align: left;
-    color: black;
-    font-size: larger;
-    background: white;
-    margin-left: 40px;
-    margin-top: 40px;
+.navbar .navbar-nav .nav-link:hover {
+     color: white;
+     text-decoration: underline;
 }
 
 #piepaginaprovee{
 
     margin-top: 80px;
 }
+
+/*/Página de bienvenida*/
