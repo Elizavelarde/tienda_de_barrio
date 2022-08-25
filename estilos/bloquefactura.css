@@ -1,0 +1,113 @@
+/*Página factura*/
+.header_factura {
+    text-align: center;
+}
+
+#container_factura {
+    width: 100%;
+    background-color: rgb(165, 200, 167);
+    text-align: center;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+#factura {
+    width: 100%;
+}
+
+.form_factura select{
+    width: 75%;
+    text-align: center;
+}
+
+.form_factura input {
+    width: 75%;
+}
+
+#codigo {
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+#nombre_producto {
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+form .agregar {
+    background-color: rgb(89, 136, 89);
+    margin-top: 5px;
+    border-color: rgb(84, 115, 84);
+}
+
+form .agregar:hover {
+    background-color: rgb(165, 200, 167);
+    border-color: rgb(121, 159, 123);
+}
+
+.factura_imprimir{
+background-color: rgb(89, 136, 89);
+border-color: rgb(84, 115, 84);        
+}
+
+.factura_imprimir:hover {
+    background-color: rgb(121, 159, 123);
+    border-color: rgb(121, 159, 123);
+}
+
+@media (min-width:600px) {
+    #logo {
+        margin-top: 20px;
+        margin-bottom: 55px;
+    }
+
+    #factura {
+        display: flex;
+    }
+    .form_factura select{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .form_factura input {
+        width: 59%;
+    }
+
+    #nombre_producto {
+        margin-left: 2px;
+        margin-top: 55px;
+    }
+
+    #codigo {
+        margin-left: 0;
+        margin-top: 55px;
+    }
+
+    .form_factura h5{
+        margin-bottom: 2rem;
+    }
+    
+    .agregar {
+        height: 2.5rem;
+    }
+
+    #factura .agregar {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:900px) {
+    #logo {
+        width: 15rem;
+    }
+
+    #factura {
+        width: 85%;
+        margin-left: 8%;
+
+    }
+}
