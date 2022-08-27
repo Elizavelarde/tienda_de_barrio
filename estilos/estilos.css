@@ -73,6 +73,9 @@ body {
     
 }
 
+.error {
+    color: white;
+}
 
 form {
     width: 600px;
